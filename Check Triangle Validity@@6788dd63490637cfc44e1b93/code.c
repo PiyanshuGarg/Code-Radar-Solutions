@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    if((y==x+1 && z==y+1)){
+    if(x+y>z && y+z>x && x+z>y){
         printf("Valid");
     }
     else{
