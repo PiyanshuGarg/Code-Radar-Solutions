@@ -8,11 +8,11 @@ int main(){
     else if(x!='a' || x!='e' x!='i' x!='o'|| x!='u' || x!='A' x!='E' || x!='I' x!='O' || x!='U'){
         printf("Consonant");
     }
-    else if(x=='@' || x=='#' || x=='$' || x=='%' || x=='&'){
-        printf("Special Character");
+    else if(x>='0' && x<='9'){
+        printf("Digit");
     }
     else{
-        printf("Digit");
+        printf("Special Character");
     }
     return 0;
 }
