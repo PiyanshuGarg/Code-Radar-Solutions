@@ -16,6 +16,9 @@ int main(){
         case'/':
         printf("%",a/b);
         break;
+        default:
+        printf("Error");
+        break;
     }
     return 0;
 }
