@@ -5,16 +5,16 @@ int main(){
     scanf("%d %d %c",&a, &b, &x);
     switch(x){
         case '+':
-        printf("%d %d", a+b);
+        printf("%d", a+b);
         break;
         case '-':
-        printf("%d %d", a-b);
+        printf("%d", a-b);
         break;
         case '*':
-        printf("%d %d", a*b);
+        printf("%d", a*b);
         break;
         case '/':
-        printf("%d %d", a/b);
+        printf("%d", a/b);
         break;
         default:
         printf("Error");
