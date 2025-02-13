@@ -6,13 +6,13 @@ int main(){
         case 1:
         printf("30");
         break;
-        case 2;
+        case 2:
         printf("28");
         break;
-        case 3;
+        case 3:
         printf("31");
         break;
-        case 4;
+        case 4:
         printf("30");
         break;
         case 5:
@@ -24,7 +24,7 @@ int main(){
         case 7:
         printf("31");
         break;
-        case 8;
+        case 8:
         printf("31");
         break;
         case 9:
