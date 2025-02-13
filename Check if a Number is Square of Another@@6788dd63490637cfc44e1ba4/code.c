@@ -2,9 +2,7 @@
 int main(){
     int a,b=0;
     scanf("%d %d",&a,&b);
-    a=a*a;
-    b=a%b==0;
-    if(a==b){
+    if(a==b*b){
         printf("Yes");
     }
     else{
