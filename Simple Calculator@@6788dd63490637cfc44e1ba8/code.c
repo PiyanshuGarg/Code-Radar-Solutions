@@ -17,7 +17,7 @@ int main(){
         if(b!=0){
             printf("%.lf", a/b);}
         else{
-            printf("Error");
+            printf("error");
         }
         break;
         default:
