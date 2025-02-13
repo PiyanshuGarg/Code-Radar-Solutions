@@ -3,10 +3,10 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
      if((a>=18) || (b==1)){
-         printf("Elegible");
+         printf("Eligible");
      }
     else{
-         printf("Not Elegible");
+         printf("Not Eligible");
     }
     return 0;
     
